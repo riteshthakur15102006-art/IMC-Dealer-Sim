@@ -1,3 +1,4 @@
+import time
 class Dealer:
     def __init__(self, base_edge=8.0, gamma=0.5, budget=0.30):
         self.base_edge, self.gamma, self.budget = base_edge, gamma, budget
